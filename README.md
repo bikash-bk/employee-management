@@ -23,29 +23,29 @@ steps to download and install project
 
 **BACKEND**
 1️⃣ Navigate to backend
-     cd backend
+cd backend
 2️⃣ Install dependencies
-    npm install
+npm install
 3️⃣ Create .env file inside backend folder
-    PORT=5000
+PORT=5000
 MONGO_URI= your_mongo_connection_string_here
 4️⃣ Start the backend  
-    nodemon server.js   or node server.js
+nodemon server.js   or node server.js
 
 
 
 **⚙️ Frontend Setup (React)**
 
 1️⃣ Navigate to frontend
-    cd ../frontend
+cd ../frontend
 2️⃣ Install dependencies
-    npm install
+npm install
 
 3️⃣ Create .env file in frontend
-    VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=http://localhost:5000/api
     
 4️⃣ Start frontend
-     npm run dev
+npm run dev
 
 
    
