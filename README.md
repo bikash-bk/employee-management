@@ -5,6 +5,8 @@ edit EMPLOYEE, update emplyee etc
 
 
 ## steps to download and install this project on windows
+
+## BACKEND SETUP 
 1. clone the repository 
 
 2. setup for backend folder
@@ -12,6 +14,7 @@ edit EMPLOYEE, update emplyee etc
 ```bash 
 cd backend
 npm install
+npm i nodemon
 
 ```
 3. create .env file on root directory (/backend/.env)
@@ -21,3 +24,39 @@ PORT=5000
 MONGO_URI=your_mongo_connection_string_here
 
 ```
+4. run the server 
+```bash 
+nodemon server.js 
+
+# or 
+
+node server.js
+
+
+
+```
+
+## FRONTEND SETUP 
+
+1. Navigate to frontend folder:
+```bash 
+cd frontend
+```
+2. Install frontend dependencies:
+```bash 
+npm install
+```
+3. Create .env file inside frontend folder
+```bash 
+VITE_API_URL=http://localhost:5000/api
+```
+5. Start the frontend server:
+```bash 
+npm run dev
+
+```
+
+
+
+
+
