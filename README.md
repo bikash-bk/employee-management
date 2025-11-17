@@ -25,3 +25,8 @@ A simple Employee Management System built using:
 ### 1. Go to backend folder
 ```sh
 cd backend
+### 1. Install dependencies
+```sh
+npm install
+
+
