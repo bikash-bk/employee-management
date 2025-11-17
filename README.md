@@ -1,32 +1,23 @@
-# Employee Management System (MERN Stack)
 
-A simple Employee Management System built using:
+# EMPLOYEE MANAGEMENT SYSTEM 
+this project is based on mern stack technologies (react,nodejs,mongodb,expressjs ) . in this project we can add emplyee details , 
+edit EMPLOYEE, update emplyee etc 
 
-- **MongoDB** (database)
-- **Node.js + Express** (backend REST API)
-- **React + Axios + React Router** (frontend UI)
 
-## Features
+## steps to download and install this project on windows
+1. clone the repository 
 
-- Add Employee  
-- Edit Employee  
-- Delete Employee  
-- View Employee List  
-- Search Employee  
-- Full CRUD with MongoDB  
-- Clean UI (Custom CSS)
+2. setup for backend folder
 
----
-
-# How to Download & Run This Project
-
-## 🔧 Backend Setup (Node + Express)
-
-### 1. Go to backend folder
-```sh
+```bash 
 cd backend
-### 1. Install dependencies
-```sh
 npm install
 
+```
+3. create .env file on root directory (/backend/.env)
+```bash 
 
+PORT=5000
+MONGO_URI=your_mongo_connection_string_here
+
+```
